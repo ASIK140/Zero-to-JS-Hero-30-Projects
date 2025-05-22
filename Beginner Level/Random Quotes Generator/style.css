@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    padding: 2vmax 3vmax;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+main button{
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main p{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+}

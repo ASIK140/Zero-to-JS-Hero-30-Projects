@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Generate Your Password</h1>
+        <section id="condition">
+            <section>
+                <label for="">Length</label>
+                <input type="text"  name="" id="length" value="5">
+            </section>
+                        <section>
+                <label for="">Charecter</label>
+                <input type="checkbox" checked id="char">
+            </section>
+            <section>
+                <label for="" >Number</label>
+                <input type="checkbox" id="num">
+            </section>
+            <section>
+                <label for="" >Spacial Charecter</label>
+                <input type="checkbox" id="spaChar">
+            </section>
+        </section>
+        <section>
+            <textarea name="" id="pass" rows="1" disabled></textarea>
+        </section>
+        <button onclick="generate()">Generate</button>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
