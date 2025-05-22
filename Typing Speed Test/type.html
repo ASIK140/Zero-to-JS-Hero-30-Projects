@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <style>
+        /* Previous CSS remains the same */
+        .stats {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+        .stats p {
+            margin: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="sampleText" class="sample-text"></div>
+        <textarea id="userInput" class="user-input" placeholder="Start typing here..."></textarea>
+    </div>
+    <div class="stats">
+        <p>Time: <span id="timer">0</span>s</p>
+        <p>Speed: <span id="wpm">0</span> WPM</p>
+        <p>Accuracy: <span id="accuracy">0</span>%</p>
+        <p>Characters: <span id="charCount">0</span></p>
+    </div>
+
+    <script>
+        const sampleText = "The quick brown fox jumps over the lazy dog. This is a typing speed test example text. Practice your typing skills here!";
+        const sampleTextElement = document.getElementById('sampleText');
+        const userInput = document.getElementById('userInput');
+        const charCount = document.getElementById('charCount');
+        const timerElement = document.getElementById('timer');
+        const wpmElement = document.getElementById('wpm');
+        const accuracyElement = document.getElementById('accuracy');
+
+        let startTime;
+        let timerInterval;
+        let testCompleted = false;
+
+        function initSampleText() {
+            sampleTextElement.innerHTML = sampleText.split('').map(char => 
+                `<span>${char === ' ' ? '&nbsp;' : char}</span>`
+            ).join('');
+        }
+
+        function updateTextComparison() {
+            const typedChars = userInput.value.split('');
+            const sampleSpans = sampleTextElement.querySelectorAll('span');
+            charCount.textContent = typedChars.length;
+
+            // Start timer on first keystroke
+            if (!startTime) {
+                startTime = Date.now();
+                timerInterval = setInterval(updateTimer, 1000);
+            }
+
+            let correctCharacters = 0;
+            sampleSpans.forEach((span, index) => {
+                if (index < typedChars.length) {
+                    if (typedChars[index] === sampleText[index]) {
+                        span.classList.add('correct');
+                        span.classList.remove('incorrect');
+                        correctCharacters++;
+                    } else {
+                        span.classList.add('incorrect');
+                        span.classList.remove('correct');
+                    }
+                } else {
+                    span.classList.remove('correct', 'incorrect');
+                }
+            });
+
+            // Calculate accuracy
+            const accuracy = typedChars.length > 0 
+                ? Math.round((correctCharacters / typedChars.length) * 100)
+                : 0;
+            accuracyElement.textContent = `${accuracy}%`;
+
+            // Calculate WPM
+            const timeElapsed = (Date.now() - startTime) / 1000; // in seconds
+            const wpm = timeElapsed > 0 
+                ? Math.round((correctCharacters / 5) / (timeElapsed / 60))
+                : 0;
+            wpmElement.textContent = `${wpm}WPM`;
+
+            // Check if test is completed
+            if (typedChars.length === sampleText.length && !testCompleted) {
+                clearInterval(timerInterval);
+                testCompleted = true;
+                userInput.disabled = true;
+            }
+        }
+
+        function updateTimer() {
+            const timeElapsed = Math.floor((Date.now() - startTime) / 1000);
+            timerElement.textContent = `${timeElapsed}S`;
+        }
+
+        // Initialize app
+        initSampleText();
+        userInput.addEventListener('input', updateTextComparison);
+    </script>
+</body>
+</html>
