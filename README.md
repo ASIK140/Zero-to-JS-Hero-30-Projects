@@ -17,18 +17,17 @@
 
 ### 🔰 Beginner (10 Projects)
 Simple UI-focused apps to build DOM, events, and logic skills.
-
-- ✅ Age Calculator  
+- ✅ Digital Clock
 - ✅ Counter App  
-- ✅ Digital Clock  
-- ✅ Tip Calculator  
-- ✅ Random Quote Generator  
-- ✅ Background Color Changer  
-- ✅ BMI Calculator  
-- ✅ Password Generator  
-- ✅ To-Do List (Basic)  
-- ✅ Image Slider  
-
+- ✅ Age Calculator    
+- ✅ Random Quote Generator
+- ✅ Calculator
+- ✅ Password Generator
+- ✅ To-Do List  
+- ✅ Image Slider
+- ✅ Form Validation
+- ✅ Weather Appp
+- ✅ Typing Speed Test (Bonus)
 ---
 
 ### 🚀 Intermediate (10 Projects)
