@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <!-- Start Screen -->
+            <div id="start-screen">
+                <h1>Welcome to the Quiz!</h1>
+                <p>Test your knowledge with these questions</p>
+                <button id="start-btn" class="btn">Start Quiz</button>
+            </div>
+
+            <!-- Quiz Screen (initially hidden) -->
+            <div id="quiz-screen" style="display: none;">
+                <div id="question-container">
+                    <h2 id="question">Question goes here</h2>
+                    <div id="progress">Question <span id="current-question">1</span>/<span id="total-questions">5</span></div>
+                </div>
+                
+                <div id="answer-buttons" class="btn-grid">
+                    <!-- Answer buttons will be added here by JavaScript -->
+                </div>
+                
+                <div class="controls">
+                    <button id="next-btn" class="next-btn btn" style="display: none;">Next</button>
+                </div>
+            </div>
+
+            <!-- Results Screen (initially hidden) -->
+            <div id="results-screen" style="display: none;">
+                <h2>Quiz Completed!</h2>
+                <p>Your score: <span id="score">0</span>/<span id="total">0</span></p>
+                <button id="restart-btn" class="btn">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
