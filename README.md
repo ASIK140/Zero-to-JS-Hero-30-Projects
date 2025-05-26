@@ -33,16 +33,16 @@ Simple UI-focused apps to build DOM, events, and logic skills.
 ### 🚀 Intermediate (10 Projects)
 Use of local storage, APIs, and deeper logic.
 
-- ✅ Weather App (OpenWeather API)  
+- ✅ Recipe Finder
+- ✅ Currency Converter
+- ✅ Movie Search App
 - ✅ Quiz App  
 - ✅ Expense Tracker  
-- ✅ Notes App with localStorage  
-- ✅ Typing Speed Test  
-- ✅ Countdown Timer  
-- ✅ Modal Popup  
-- ✅ Hangman Game  
-- ✅ Drum Kit  
-- ✅ Form Validation  
+- ✅ Music Player  
+- ✅ GitHub Profile Finder 
+- ✅ Drag & Drop Kanban Board
+- ✅ Markdown Previewer
+- ✅ Speech-to-Text Converter  
 
 ---
 

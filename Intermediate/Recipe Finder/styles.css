@@ -1,0 +1,246 @@
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #ff8e8e;
+    --background-color: #f7f7f7;
+    --text-color: #333;
+    --light-text: #777;
+    --card-bg: #fff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+}
+
+#searchInput {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 70%;
+    font-size: 1rem;
+}
+
+#searchBtn {
+    padding: 0 1.2rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#searchBtn:hover {
+    background-color: #ff5252;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.filters select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.recipe-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-info {
+    padding: 1.5rem;
+}
+
+.recipe-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.recipe-meta {
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-category {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+#recipeCount {
+    text-align: center;
+    color: var(--light-text);
+    margin-top: 1rem;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 2rem;
+    color: var(--light-text);
+    cursor: pointer;
+}
+
+.close:hover {
+    color: var(--text-color);
+}
+
+.modal-body {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.modal-left {
+    flex: 1;
+}
+
+.modal-right {
+    flex: 2;
+}
+
+#modalImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.time-servings {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: var(--light-text);
+}
+
+.modal-right h3 {
+    margin: 1.5rem 0 1rem;
+    color: var(--primary-color);
+}
+
+#modalIngredients {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+#modalIngredients li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+#modalIngredients li::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+#modalInstructions li {
+    margin-bottom: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .modal-body {
+        flex-direction: column;
+    }
+    
+    .recipes-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}

@@ -1,0 +1,280 @@
+{
+  "top_10_indian_recipes": [
+    {
+      "id": 1,
+      "name": "Butter Chicken",
+      "ingredients": [
+        "500g chicken, cut into pieces",
+        "1 cup yogurt",
+        "2 tbsp lemon juice",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp turmeric powder",
+        "1 tsp chili powder",
+        "2 tbsp butter",
+        "1 onion, finely chopped",
+        "1 cup tomato puree",
+        "1 tsp garam masala",
+        "1/2 cup cream",
+        "Salt to taste",
+        "Fresh coriander for garnish"
+      ],
+      "steps": [
+        "Marinate chicken with yogurt, lemon juice, ginger-garlic paste, turmeric, chili powder, and salt for 2 hours.",
+        "Grill or pan-fry the chicken until cooked and set aside.",
+        "In a pan, melt butter and sauté onions until golden.",
+        "Add tomato puree and cook until oil separates.",
+        "Add garam masala and cream, mix well.",
+        "Add the cooked chicken and simmer for 10 minutes.",
+        "Garnish with fresh coriander and serve with naan or rice."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Biryani",
+      "ingredients": [
+        "2 cups basmati rice",
+        "500g chicken or mutton",
+        "2 onions, sliced",
+        "2 tomatoes, chopped",
+        "1/2 cup yogurt",
+        "2 tbsp ginger-garlic paste",
+        "1 tsp turmeric powder",
+        "2 tsp biryani masala",
+        "1/2 cup mint leaves",
+        "1/2 cup coriander leaves",
+        "4 cups water",
+        "4 tbsp ghee or oil",
+        "Saffron strands soaked in milk (optional)"
+      ],
+      "steps": [
+        "Wash and soak rice for 30 minutes.",
+        "Marinate meat with yogurt, ginger-garlic paste, turmeric, biryani masala, and salt for 1 hour.",
+        "In a pot, heat ghee/oil and fry onions until golden. Remove half for garnish.",
+        "Add marinated meat and cook until half done.",
+        "Add tomatoes, mint, and coriander. Cook for 5 minutes.",
+        "Layer half-cooked rice over the meat. Sprinkle fried onions and saffron milk.",
+        "Cover with tight lid and cook on low heat for 20 minutes (dum cooking).",
+        "Mix gently before serving."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Palak Paneer",
+      "ingredients": [
+        "250g paneer, cubed",
+        "2 bunches spinach, blanched",
+        "1 onion, chopped",
+        "2 tomatoes, chopped",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp cumin seeds",
+        "1 tsp garam masala",
+        "1/2 tsp turmeric powder",
+        "1/2 cup cream",
+        "2 tbsp oil",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Blanch spinach in hot water for 2 minutes, then blend to a puree.",
+        "Heat oil, add cumin seeds and let them splutter.",
+        "Add onions and sauté until golden. Add ginger-garlic paste and cook for 1 minute.",
+        "Add tomatoes and cook until soft.",
+        "Add spinach puree, turmeric, garam masala, and salt. Cook for 5 minutes.",
+        "Add paneer cubes and cream. Simmer for 5 minutes.",
+        "Serve hot with roti or naan."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Masala Dosa",
+      "ingredients": [
+        "2 cups rice",
+        "1/2 cup urad dal",
+        "1/2 tsp fenugreek seeds",
+        "Salt to taste",
+        "Oil for cooking",
+        "For potato filling:",
+        "3 potatoes, boiled and mashed",
+        "1 onion, sliced",
+        "1 tsp mustard seeds",
+        "1 tsp turmeric powder",
+        "2 green chilies, chopped",
+        "Few curry leaves",
+        "2 tbsp oil"
+      ],
+      "steps": [
+        "Soak rice, dal, and fenugreek seeds for 6 hours. Grind to smooth batter and ferment overnight.",
+        "For filling: Heat oil, add mustard seeds, curry leaves, and chilies.",
+        "Add onions and sauté until translucent. Add turmeric and mashed potatoes. Mix well.",
+        "To make dosa: Spread batter on hot tawa in circular motion to make thin crepe.",
+        "Drizzle oil and cook until crisp. Place potato filling on one side and fold.",
+        "Serve with coconut chutney and sambar."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chole Bhature",
+      "ingredients": [
+        "2 cups chickpeas, soaked overnight",
+        "2 tea bags (for color)",
+        "2 onions, chopped",
+        "2 tomatoes, pureed",
+        "1 tbsp ginger-garlic paste",
+        "2 tsp coriander powder",
+        "1 tsp cumin powder",
+        "1 tsp garam masala",
+        "1 tsp amchur (dry mango powder)",
+        "2 tbsp oil",
+        "For bhature:",
+        "2 cups maida (all-purpose flour)",
+        "1/2 cup yogurt",
+        "1 tsp sugar",
+        "1 tsp baking powder",
+        "Oil for deep frying"
+      ],
+      "steps": [
+        "Pressure cook chickpeas with tea bags until soft. Drain and discard tea bags.",
+        "Heat oil, sauté onions until golden. Add ginger-garlic paste and cook for 1 minute.",
+        "Add tomato puree and spices. Cook until oil separates.",
+        "Add cooked chickpeas and simmer for 10 minutes. Add amchur at end.",
+        "For bhature: Mix all ingredients to make soft dough. Rest for 2 hours.",
+        "Roll into circles and deep fry until puffed and golden.",
+        "Serve hot chole with bhature and sliced onions."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Rogan Josh",
+      "ingredients": [
+        "500g lamb, cubed",
+        "2 onions, sliced",
+        "1 cup yogurt",
+        "2 tbsp ginger-garlic paste",
+        "1 tsp turmeric powder",
+        "2 tsp Kashmiri red chili powder",
+        "1 tsp fennel powder",
+        "1 tsp garam masala",
+        "2 bay leaves",
+        "4 tbsp mustard oil",
+        "1 cup water",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Heat mustard oil until smoking point, then cool slightly.",
+        "Fry onions until golden. Add ginger-garlic paste and cook for 1 minute.",
+        "Add lamb pieces and brown on all sides.",
+        "Whisk yogurt with spices and add to the meat. Cook for 5 minutes.",
+        "Add water, bay leaves, and salt. Cover and simmer until meat is tender (about 1 hour).",
+        "Garnish with fresh coriander and serve with rice."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Dhokla",
+      "ingredients": [
+        "1 cup gram flour (besan)",
+        "1 tbsp semolina (sooji)",
+        "1 tbsp ginger-chili paste",
+        "1 tsp turmeric powder",
+        "1 tbsp lemon juice",
+        "1 tsp fruit salt (eno)",
+        "1 tbsp sugar",
+        "Salt to taste",
+        "For tempering:",
+        "1 tsp mustard seeds",
+        "2 green chilies, slit",
+        "Few curry leaves",
+        "2 tbsp oil",
+        "Fresh coriander for garnish"
+      ],
+      "steps": [
+        "Mix gram flour, semolina, ginger-chili paste, turmeric, lemon juice, sugar, salt, and water to make batter.",
+        "Grease a steaming tray and keep ready.",
+        "Just before steaming, add fruit salt to batter and mix gently.",
+        "Pour into tray and steam for 15-20 minutes until cooked.",
+        "For tempering: Heat oil, add mustard seeds, chilies, and curry leaves. Pour over dhokla.",
+        "Garnish with coriander and serve with green chutney."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Pav Bhaji",
+      "ingredients": [
+        "3 potatoes, boiled and mashed",
+        "1 cup mixed vegetables (cauliflower, peas, carrots, beans)",
+        "2 onions, chopped",
+        "2 tomatoes, chopped",
+        "1 capsicum, chopped",
+        "2 tbsp ginger-garlic paste",
+        "2 tbsp pav bhaji masala",
+        "1 tsp red chili powder",
+        "1/2 cup butter",
+        "8 pav buns",
+        "Lemon wedges and chopped onions for serving"
+      ],
+      "steps": [
+        "Boil all vegetables until soft. Drain and mash coarsely.",
+        "Heat butter in a pan, sauté onions until translucent.",
+        "Add ginger-garlic paste, capsicum, and tomatoes. Cook until mushy.",
+        "Add mashed vegetables, pav bhaji masala, chili powder, and salt. Mix well.",
+        "Cook for 10-15 minutes, mashing continuously. Add butter as needed.",
+        "Toast pav buns in butter until golden.",
+        "Serve hot bhaji with buttered pav, onions, and lemon wedges."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Idli Sambar",
+      "ingredients": [
+        "2 cups idli rice",
+        "1 cup urad dal",
+        "1/2 tsp fenugreek seeds",
+        "Salt to taste",
+        "For sambar:",
+        "1 cup toor dal, cooked",
+        "1 cup mixed vegetables (drumsticks, carrot, pumpkin)",
+        "1 onion, chopped",
+        "2 tomatoes, chopped",
+        "1 tbsp sambar powder",
+        "1/2 tsp turmeric powder",
+        "1 tsp mustard seeds",
+        "Few curry leaves",
+        "2 tbsp oil",
+        "Tamarind pulp"
+      ],
+      "steps": [
+        "Soak rice and dal separately for 6 hours. Grind to smooth batter and ferment overnight.",
+        "Grease idli molds, pour batter and steam for 10 minutes.",
+        "For sambar: Cook dal and vegetables with turmeric until soft.",
+        "Heat oil, add mustard seeds and curry leaves. Add onions and sauté.",
+        "Add tomatoes, sambar powder, and tamarind pulp. Cook for 5 minutes.",
+        "Mix with cooked dal and vegetables. Simmer for 10 minutes.",
+        "Serve hot idlis with sambar and coconut chutney."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Gulab Jamun",
+      "ingredients": [
+        "1 cup milk powder",
+        "1/4 cup maida (all-purpose flour)",
+        "1/4 tsp baking soda",
+        "2 tbsp ghee",
+        "Milk as needed for dough",
+        "For sugar syrup:",
+        "2 cups sugar",
+        "2 cups water",
+        "4 cardamom pods",
+        "1 tsp rose water",
+        "Oil for deep frying"
+      ],
+      "steps": [
+        "Make sugar syrup by boiling sugar, water, and cardamom until slightly sticky. Add rose water and keep warm.",
+        "Mix milk powder, maida, and baking soda. Add ghee and enough milk to make soft dough.",
+        "Make small smooth balls without cracks.",
+        "Heat oil on low flame and fry balls until golden brown (keep flame low for even cooking).",
+        "Drain and immediately soak in warm sugar syrup for at least 2 hours.",
+        "Serve warm or chilled."
+      ]
+    }
+  ]
+}

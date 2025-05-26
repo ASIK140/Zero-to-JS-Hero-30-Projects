@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "category": "Pasta",
+        "time": 25,
+        "servings": 4,
+        "image": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c",
+        "ingredients": [
+            "400g spaghetti",
+            "200g pancetta or guanciale, diced",
+            "4 large eggs",
+            "50g pecorino cheese, grated",
+            "50g parmesan, grated",
+            "Freshly ground black pepper",
+            "Salt"
+        ],
+        "instructions": [
+            "Bring a large pot of salted water to boil and cook spaghetti according to package instructions.",
+            "While pasta cooks, fry pancetta in a large pan until crispy.",
+            "In a bowl, whisk eggs and mix in the grated cheeses and plenty of black pepper.",
+            "Drain pasta, reserving some cooking water, and immediately add to the pancetta.",
+            "Remove pan from heat and quickly stir in the egg mixture, creating a creamy sauce. Add pasta water if needed.",
+            "Serve immediately with extra grated cheese and black pepper."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Chicken Tikka Masala",
+        "category": "Indian",
+        "time": 50,
+        "servings": 4,
+        "image": "https://i0.wp.com/www.nourishdeliciously.com/wp-content/uploads/2022/11/DSC_9207.jpg",
+        "ingredients": [
+            "500g chicken breast, cubed",
+            "150g yogurt",
+            "2 tbsp lemon juice",
+            "2 cloves garlic, minced",
+            "1 tbsp ginger, grated",
+            "2 tsp garam masala",
+            "1 tsp turmeric",
+            "1 tsp cumin",
+            "1 tsp paprika",
+            "400g canned tomatoes",
+            "100ml cream",
+            "1 onion, diced",
+            "Fresh coriander for garnish"
+        ],
+        "instructions": [
+            "Marinate chicken in yogurt, lemon juice, garlic, ginger, and half the spices for at least 1 hour.",
+            "Grill or bake chicken until slightly charred but not fully cooked.",
+            "In a pan, fry onions until soft, then add remaining spices and cook for 1 minute.",
+            "Add tomatoes and simmer for 10 minutes until thickened.",
+            "Add chicken and cream, simmer for 10-15 minutes until chicken is cooked through.",
+            "Garnish with fresh coriander and serve with rice or naan."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Avocado Toast",
+        "category": "Breakfast",
+        "time": 10,
+        "servings": 2,
+        "image": "https://www.allrecipes.com/thmb/8NccFzsaq0_OZPDKmf7Yee-aG78=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AvocadoToastwithEggFranceC4x3-bb87e3bbf1944657b7db35f1383fabdb.jpg",
+        "ingredients": [
+            "2 slices sourdough bread",
+            "1 ripe avocado",
+            "1 tbsp lemon juice",
+            "Salt and pepper to taste",
+            "Red pepper flakes (optional)",
+            "2 eggs (optional)",
+            "Microgreens or sprouts for garnish"
+        ],
+        "instructions": [
+            "Toast bread until golden and crisp.",
+            "Mash avocado with lemon juice, salt, and pepper.",
+            "Spread avocado mixture on toast.",
+            "Top with optional fried or poached eggs if desired.",
+            "Sprinkle with red pepper flakes and garnish with microgreens."
+        ]
+    },
+      {
+    "id": 4,
+    "name": "Butter Chicken",
+    "time":"50",
+    "category": "lunch",
+    "servings": 4,
+    "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/chicken-butter-masala-recipe.jpg",
+    "ingredients": [
+      "500g chicken, cut into pieces",
+      "1 cup yogurt",
+      "2 tbsp lemon juice",
+      "1 tbsp ginger-garlic paste",
+      "1 tsp turmeric powder",
+      "1 tsp chili powder",
+      "2 tbsp butter",
+      "1 onion, finely chopped",
+      "1 cup tomato puree",
+      "1 tsp garam masala",
+      "1/2 cup cream",
+      "Salt to taste",
+      "Fresh coriander for garnish"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt, lemon juice, ginger-garlic paste, turmeric, chili powder, and salt for 2 hours.",
+      "Grill or pan-fry the chicken until cooked and set aside.",
+      "In a pan, melt butter and sauté onions until golden.",
+      "Add tomato puree and cook until oil separates.",
+      "Add garam masala and cream, mix well.",
+      "Add the cooked chicken and simmer for 10 minutes.",
+      "Garnish with fresh coriander and serve with naan or rice."
+    ]
+  }
+]

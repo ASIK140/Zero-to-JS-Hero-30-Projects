@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-utensils"></i> Recipe Finder</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search recipes...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="filters">
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+                <!-- Categories will be populated by JavaScript -->
+            </select>
+            <select id="timeFilter">
+                <option value="">Any Cooking Time</option>
+                <option value="30">Under 30 mins</option>
+                <option value="60">Under 1 hour</option>
+                <option value="120">Under 2 hours</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="recipeCount"></div>
+        <div id="recipesContainer" class="recipes-grid">
+            <!-- Recipes will be loaded here -->
+        </div>
+    </main>
+
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div class="modal-body">
+                <div class="modal-left">
+                    <img id="modalImage" src="" alt="">
+                    <div class="time-servings">
+                        <p><i class="fas fa-clock"></i> <span id="modalTime"></span> mins</p>
+                        <p><i class="fas fa-users"></i> <span id="modalServings"></span> servings</p>
+                    </div>
+                </div>
+                <div class="modal-right">
+                    <h3>Ingredients</h3>
+                    <ul id="modalIngredients"></ul>
+                    <h3>Instructions</h3>
+                    <ol id="modalInstructions"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
