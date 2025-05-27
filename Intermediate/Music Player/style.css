@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  height: 77vh;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 22%;
+  background: hsla(33, 100%, 53%, 1);
+  padding: 1vmax;
+  border-radius: 10px;
+
+  background: linear-gradient(
+    180deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+}
+.upperButton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.upperButton button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.upperButton button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.thumbnail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#thum_image{
+  height: 200px;
+  width: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+.pause{
+    animation: spin 15s linear infinite; /* Rotates continuously every 2 seconds */
+  animation-play-state: paused;
+
+}
+.play{
+    animation-play-state: running;
+}
+
+
+.details {
+  width: 100%;
+  text-align: center;
+  margin: 1vmax 0;
+}
+.details h3 {
+  font-family: sans-serif;
+  font-size: 2.5vmax;
+  line-height: 3.5vmax;
+}
+.details span {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.timer_section {
+  width: 100%;
+  padding: 1vmax 0;
+}
+.timer_section input {
+  width: 100%;
+  transition: all 1s;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+}
+.timer span {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.controller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmax;
+}
+.controller button {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.controller button:hover {
+  background-color: #000;
+  color: #fff;
+}
+#playBtn {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  font-size: 40px;
+}
+#prevBtn,
+#nextBtn {
+  height: 75px;
+  width: 75px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+}

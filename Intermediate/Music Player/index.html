@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="upperButton">
+            <button><i class="fa-solid fa-arrow-left"></i></button>
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="thumbnail">
+            <div class="wrap">
+            <img src="./Media/thumbnail.png"  id="thum_image" class="pause" alt="" height="100" width="100">
+
+            </div>
+        </div>
+        <div class="details">
+            <h3 id="music_name">Music 01</h3>
+            <span id="artists">Honey Sign, Payel</span>
+        </div>
+        <div class="timer_section">
+            <section>
+                <input id="music_range" type="range">
+            </section>
+            <section class="timer">
+                <span id="start">00:02</span>
+                <span id="end">3:95</span>
+            </section>
+        </div>
+        <div class="controller">
+            <button id="prevBtn"><i class="fa-solid fa-backward"></i></button>
+            <button id="playBtn">
+             <i style="padding-left: 5px;" class="fa-solid fa-play"></i>
+                
+            </button>
+            <button id="nextBtn"><i class="fa-solid fa-forward"></i></button>
+        </div>
+    </main>
+    <audio src="" id="audio" ></audio>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/8cfc6428ac.js" crossorigin="anonymous"></script>
+</html>
